@@ -1,0 +1,26 @@
+.font-arial {
+    font-family: Arial;
+}
+.btn-blue {
+    background: skyblue;
+    box-shadow: 10px 5px 5px black;
+}
+.dark {
+    color-scheme: dark;
+}
+.light  {
+    color-scheme: light;
+}
+.transparent {
+    opacity: 0;
+}
+h1 {
+    font-family: Arial, sans-serif, 'Segoe UI';
+    font-variant-emoji: emoji;
+}
+@media(prefers-color-scheme: dark) {
+    .btn-blue {
+        background: skyblue;
+        box-shadow: 10px 5px 5px white;
+    }
+}
